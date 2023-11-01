@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* Estilos globales para toda la web */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto en blanco */
+    padding: 10px 20px; /* Ajusta el espaciado según tus necesidades */
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de fuente */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Cambia el color del botón cuando se coloca el cursor encima */
+button:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el cursor */
+}
+
+/* Estilos específicos para el footer y las publicidades */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.publicidad {
+    display: inline-block;
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000; /* Color de texto en blanco */
+    /* Agrega estilos adicionales según tus necesidades */
+}
+
+/* Aplicar la fuente Mooli a los párrafos */
+p {
+    font-family: 'Mooli', sans-serif;
+}
+
+/* Aplicar la fuente Mooli a los encabezados h1, h2, h3 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Mooli', sans-serif;
+}
+/* Aplicar la fuente Mooli a elementos dentro del formulario */
+#formulario label,
+#formulario input,
+#formulario button {
+    font-family: 'Mooli', sans-serif;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    body {
+        font-family: 'Mooli', sans-serif; /* Cambia la fuente para dispositivos más pequeños */
+    }
+
+    #container {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    /* Estilos para el formulario y su contenido en dispositivos móviles */
+    #formulario {
+        text-align: center;
+    }
+
+    #link {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+    button {
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .contenedor {
+        text-align: center;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    li {
+        list-style-type: none;
+        margin: 5px 0;
+    }
+}
